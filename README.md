@@ -53,3 +53,17 @@ The a table was created to better graph a scatter plot.
 Lastly, a relational scatter plot was created to graph Total Coin Supply vs Total Coins Mined shows a loss of positive correlation.
 
 ## Summary
+
+We provided the client with a list of cryptocurrencies being traded and classified them into 4 clusters. The clusters represent the different distribution of currencies totals mined vs total supply:
+- High Total Mined, High Total Supply
+- High Total Mined, low Total Supply
+- low Total Mined, High Total Supply
+- low Total Mined, low Total Supply
+
+This information will allow our client to better decide what cryptos were more readily available to invest in and which are more sought after.
+
+## Conclusions
+
+- Bitcoin is in a class by itself. This is obvious in both the three-dimensional cluster modelling and the scatterplot. This is useful as Bitcoin can be studied as an exemplar.
+- It would be very instrumental to run this analysis again without the Bitcoin data, to see if the elbow curve finds a different optimal cluster value and so that we can see the distribution of the data better in the three-dimensional plot. Essentially there are two classes, Bitcoin and all others.
+- We can use these findings to compare all cryptocurrencies against Bitcoin and to re-run the unsupervised machine learning without Bitcoin to more fully understand the rest of the cryptocurrency market.
